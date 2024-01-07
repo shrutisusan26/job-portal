@@ -1,0 +1,33 @@
+.parent-container{
+    color: #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 350px;
+    font-size: 26px;
+    /* height: 120px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .job-card  p {
+    font-size: 20px;
+
+  }
